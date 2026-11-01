@@ -1,0 +1,6 @@
+ENVIRONMENT=development
+DEBUG=True
+DATABASE_URL=postgresql://postgres:postgres@localhost:5432/edtech_crm
+SECRET_KEY=dev-secret-change-in-production-min-32-chars
+ACCESS_TOKEN_EXPIRE_MINUTES=10080
+CORS_ORIGINS=http://localhost:5173,http://127.0.0.1:5173

@@ -1,0 +1,12 @@
+from app.models.base import Base  # noqa: F401
+from app.models.role import Role  # noqa: F401
+from app.models.institution import Institution  # noqa: F401
+from app.models.user import User  # noqa: F401
+from app.models.student import Student  # noqa: F401
+from app.models.course import Course  # noqa: F401
+from app.models.counsellor import Counsellor  # noqa: F401
+from app.models.inquiry import Inquiry  # noqa: F401
+from app.models.follow_up import FollowUp  # noqa: F401
+from app.models.inquiry_activity import InquiryActivity  # noqa: F401
+from app.models.enrollment import Enrollment  # noqa: F401
+from app.models.notification import Notification  # noqa: F401
